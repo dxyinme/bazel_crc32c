@@ -1,0 +1,14 @@
+cc_library(
+  name = "crc32c",
+  srcs = glob(["crc32c/*.*"]),
+  hdrs = ["crc32c/crc32c.h"],
+)
+
+cc_binary(
+  name = "example",
+  srcs = ["example.cc"],
+  copts = [
+    "-std=c++17"
+  ],
+  deps = [":crc32c"],
+)

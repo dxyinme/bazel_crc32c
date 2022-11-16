@@ -1,0 +1,13 @@
+# Editors.
+*.sw*
+.DS_Store
+/.cache
+/.vscode
+
+# Build directory.
+build/
+out/
+bazel-bin
+bazel-crc32c
+bazel-out
+bazel-testlogs
