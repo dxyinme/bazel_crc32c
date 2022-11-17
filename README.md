@@ -8,7 +8,7 @@ you can use it like this
 git_repository(
     name = "com_github_dxyinme_crc32c",
     remote = "https://github.com/dxyinme/bazel_crc32c.git",
-    branch = "main",
+    tag = "v1.0",
 )
 
 # in use
